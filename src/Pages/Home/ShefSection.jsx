@@ -1,5 +1,6 @@
 
 import { cardData } from '../../Components/CardData';
+
 const ShefPage = () => {
     return (
         <div className="mb-20">
