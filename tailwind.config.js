@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        cinzel: ["cinzel", "serif"], // 'serif' is a fallback
+        cinzel: ["'Cinzel'", "serif"],
+        raleway: ["'Raleway'", "sans-serif"], // Correct format for Raleway
       },
     },
   },

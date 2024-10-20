@@ -1,10 +1,8 @@
 
-import Banner from "../Banner";
-import Category from "../Category";
+import Banner from "../Banner/Banner";
+import Category from "../Category/Category";
 import BistroBoss from "../BistroBoss";
 import Menu from "../Menu";
-import ContactSection from "../ContactSection";
-import ShefSection from "../ShefSection";
 
 const Home = () => {
   return (
@@ -13,8 +11,6 @@ const Home = () => {
       <Category />
       <BistroBoss/>
       <Menu/>
-      <ContactSection/>
-      <ShefSection/>
     </div>
   );
 };
