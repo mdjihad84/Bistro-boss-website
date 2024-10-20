@@ -69,8 +69,8 @@ const Menu = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <h4 className="text-center text-lg sm:text-xl text-[#1F2937] font-normal mt-4">View Full Menu</h4>
+            <div className="text-center my-4">
+                <button className="py-[20px] px-[30px] rounded-[8px] border-b-[3px]  border-black">View Full Menu</button>
             </div>
         </div>
     );
