@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         cinzel: ["'Cinzel'", "serif"],
-        raleway: ["'Raleway'", "sans-serif"], // Correct format for Raleway
+        raleway: ["'Raleway'", "sans-serif"],
       },
     },
   },

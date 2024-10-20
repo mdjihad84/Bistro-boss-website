@@ -1,5 +1,4 @@
 import ShefImg from "../assets/Home/slide1.jpg";
-
 export const cardData = [
     {
         id: 1,

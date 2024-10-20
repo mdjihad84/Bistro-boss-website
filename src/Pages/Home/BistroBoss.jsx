@@ -1,5 +1,4 @@
 import Img5 from "../../assets/Home/chef-service.jpg";
-
 const BistroBoss = () => {
     return (
         <div 
