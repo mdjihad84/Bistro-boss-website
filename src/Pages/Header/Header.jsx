@@ -1,4 +1,4 @@
-
+import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="navbar bg-black text-white bg-opacity-35 fixed z-40 w-[1284px]">
@@ -22,7 +22,7 @@ const Header = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm text-black dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm text-black dropdown-content text-white rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
               <a>Home</a>
@@ -48,17 +48,19 @@ const Header = () => {
           </ul>
         </div>
         <h1 className="font-bold lg:text-[26px] leading-[43.14px] font-cinzel">
-          BISTRO BOSS
+          <NavLink to={"/"}>
+            BISTRO BOSS
+          </NavLink>
         </h1>
-
         {/* <a className="btn btn-ghost text-xl"> Restaurant</a> */}
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 uppercase font-semibold">
           <li>
-            <a>Home</a>
+            <NavLink to="/" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
+              Home
+            </NavLink>
           </li>
-
           <li>
             <a>CONTACT us</a>
           </li>
@@ -70,11 +72,14 @@ const Header = () => {
             <a>Our Menu</a>
           </li>
           <li>
-            <a>Our Shop</a>
+            <NavLink to="/SignUp" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
+              SignUp
+            </NavLink>
           </li>
-
           <li>
-            <a>SIGN OUT</a>
+            <NavLink to="/login" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
+              Login
+            </NavLink>
           </li>
         </ul>
       </div>

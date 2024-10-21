@@ -6,6 +6,7 @@ import Menu from "./Menu";
 import ContactSection from "./ContactSection";
 import ShefSection from "./ShefSection";
 import Featured from "./Featured";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <ContactSection/>
       <ShefSection/>
       <Featured/>
+      <Testimonials/>
     </div>
   );
 };
