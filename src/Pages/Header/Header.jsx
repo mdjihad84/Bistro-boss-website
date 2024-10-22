@@ -24,9 +24,10 @@ const Header = () => {
             tabIndex={0}
             className="menu menu-sm text-black dropdown-content text-white bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li>
-              <a>Home</a>
+              <NavLink to="/" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
+                Home
+              </NavLink>
             </li>
-
             <li>
               <a>CONTACT us</a>
             </li>
@@ -38,11 +39,14 @@ const Header = () => {
               <a>Our Menu</a>
             </li>
             <li>
-              <a>Our Shop</a>
+              <NavLink to="/SignUp" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
+                SignUp
+              </NavLink>
             </li>
-
             <li>
-              <a>SIGN OUT</a>
+              <NavLink to="/login" className={({ isActive }) => (isActive ? "bg-red-700 text-white hover:bg-red-800" : "")}>
+                Login
+              </NavLink>
             </li>
           </ul>
         </div>

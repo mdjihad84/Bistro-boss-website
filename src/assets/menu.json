@@ -15,7 +15,7 @@
     },
   
     {
-      "_id": "642c155b2c4774f05c36eeaa",
+      "_id": 3,
       "name": "Haddock",
       "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
       "image": "https://i.ibb.co/B3sDjpy/slide1.jpg",
@@ -23,8 +23,68 @@
       "price": 14.7,
       "description": "Roasted duck breast potato and a griottine cherry sauce (served pink) with gratin potato and a griottine cherry sauce"
     },
+    {
+      "_id": 4,
+      "name": "Haddock",
+      "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+      "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
+      "category": "drinks",
+      "price": 14.7
+    },
+    {
+      "id": 5,
+      "name": "FISH PARMENTIER",
+      "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+      "price": "$14.5"
+    },
+    {
+      "id": 6,
+      "name": "CHICKEN PARMENTIER",
+      "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+      "price": "$12.5"
+    },
+    {
+      "id": 7,
+      "name": "VEGETARIAN PARMENTIER",
+      "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+      "price": "$10.0"
+    },
   {
-    "_id": "642c155b2c4774f05c36eeb9",
+    "_id": 8,
+    "name": "Escalope de Veau",
+    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
+    "category": "popular",
+    "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "price": 14.5
+  },
+  {
+    "id": 9,
+    "name": "FISH PARMENTIER",
+    "price": 14.5,
+    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+    "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg"
+  },
+  {
+    "id": 10,
+    "name": "CHICKEN BREAST",
+    "price": 12.5,
+    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+    "description": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg"
+  },
+
+  {
+    "_id": 11,
+    "name": "Haddock",
+    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
+    "category": "salad",
+    "price": 14.7
+  },
+  {
+    "_id": 12,
     "name": "Haddock",
     "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
     "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-1-370x247.jpg",
@@ -32,7 +92,7 @@
     "price": 14.7
   },
   {
-    "_id": "642c155b2c4774f05c36ee7c",
+    "_id": 13,
     "name": "Escalope de Veau",
     "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
     "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
@@ -40,7 +100,7 @@
     "price": 14.5
   },
   {
-    "_id": "642c155b2c4774f05c36ee88",
+    "_id": 14,
     "name": "Escalope de Veau",
     "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
     "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
@@ -49,6 +109,30 @@
   },
   {
     "_id": "642c155b2c4774f05c36ee7a",
+    "name": "Roast Duck Breast",
+    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
+    "category": "popular",
+    "price": 14.5
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee8c",
+    "name": "Escalope de Veau",
+    "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+    "category": "dessert",
+    "price": 12.5
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee94",
+    "name": "Escalope de Veau",
+    "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+    "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
+    "category": "pizza",
+    "price": 12.5
+  },
+  {
+    "_id": 7,
     "name": "Roast Duck Breast",
     "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
     "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-5-370x247.jpg",
