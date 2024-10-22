@@ -61,13 +61,13 @@ const SignUp = () => {
           </form>
           <h3 className="text-center text-black text-lg mt-3 font-medium">Or sign in with</h3>
           <div className="flex justify-center gap-10 mt-3">
-            <a className="w-[52px] h-[52px] rounded-full border border-solid border-black border-[2px] flex items-center justify-center" href="https://facebook.com" target="_blank">
+            <a className="w-[52px] h-[52px] rounded-full border border-solid border-black border-[2px] flex items-center justify-center" href="https://www.facebook.com/jahidulislam.jihad.773124/" target="_blank">
               <i className="fa-brands fa-facebook-f text-[20px]"></i>
             </a>
-            <a className="w-[52px] h-[52px] rounded-full border border-solid border-black border-[2px] flex items-center justify-center" href="https://twitter.com" target="_blank">
+            <a className="w-[52px] h-[52px] rounded-full border border-solid border-black border-[2px] flex items-center justify-center" href="https://x.com/jahidul16956" target="_blank">
               <i className="fab fa-twitter text-[20px]"></i>
             </a>
-            <a className="w-[52px] h-[52px] rounded-full border border-solid border-black border-[2px] flex items-center justify-center" href="https://github.com" target="_blank">
+            <a className="w-[52px] h-[52px] rounded-full border border-solid border-black border-[2px] flex items-center justify-center" href="https://github.com/mdjihad84" target="_blank">
               <i className="fab fa-github text-[20px]"></i>
             </a>
           </div>

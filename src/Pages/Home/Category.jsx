@@ -1,5 +1,5 @@
 
-import CategoryTitle from "../../Components/CategoryTitle";
+import CategoryTitle from "../../Components/SectionTitle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
