@@ -1,11 +1,10 @@
+import SectionTitle from "../../Components/SectionTitle";
+
 const Menu = () => {
     return (
         <div className="px-4 sm:px-0">
             <div>
-                <p className="text-center text-lg sm:text-xl font-normal italic text-[#D99904] mt-10 sm:mt-20">---Check it out---</p>
-                <hr className="w-[90%] sm:w-[424px] h-[4px] mx-auto mt-4 sm:mt-8 mb-2 sm:mb-4 bg-[#E8E8E8]" />
-                <h2 className="text-center text-2xl sm:text-4xl text-black">FROM OUR MENU</h2>
-                <hr className="w-[90%] sm:w-[424px] h-[4px] mx-auto mt-6 sm:mt-10 mb-4 sm:mb-8 bg-[#E8E8E8]" />
+                <SectionTitle subtitle="---Check it out---" title="FROM OUR MENU" />
             </div> 
             <div className="flex justify-evenly lg:flex-row flex-wrap">
                 <div className="w-full sm:w-[525px] mx-4 lg:ml-10 mb-8 flex">
